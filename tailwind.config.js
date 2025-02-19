@@ -8,7 +8,7 @@ module.exports = {
         './resources/views/**/*.blade.php',
         './node_modules/flowbite/**/*.js'
     ],
-
+    darkMode: 'class', // Ensure it's set to 'class'
     theme: {
         extend: {
             fontFamily: {
@@ -22,3 +22,5 @@ module.exports = {
         require('flowbite/plugin')
     ],
 };
+
+  
