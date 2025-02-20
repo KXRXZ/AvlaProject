@@ -9,6 +9,9 @@ module.exports = {
         './node_modules/flowbite/**/*.js'
     ],
     darkMode: 'class', // Ensure it's set to 'class'
+    colors: {
+        dark: "#000000", // Custom black color for dark mode
+      },
     theme: {
         extend: {
             fontFamily: {
